@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: transparent;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .container h2 {
+        text-align: center;
+      }
+
+      .container form {
+        margin-top: 20px;
+      }
+
+      .container label {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .container input[type="text"] {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        border-radius: 4px;
+      }
+      .container input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin: 0px;
+        border: 1px solid black;
+        border-radius: 4px;
+      }
+      #forget {
+        margin-bottom: 20px;
+        width: 30%;
+        height: 3vh;
+      }
+      #forget a {
+        color: blue;
+        text-decoration: none;
+      }
+      #forget a:hover {
+        text-decoration: underline;
+        color: blue;
+      }
+      .container input[type="submit"] {
+        width: 90%;
+        padding: 10px;
+        margin-left: 12px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 4px;
+      }
+      .container input[type="submit"]:hover {
+        background-color: blue;
+      }
+      #or {
+        margin: 10px;
+        margin-left: 130px;
+      }
+      #general {
+        background-color: white;
+        width: 90%;
+        height: 7vh;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+      }
+      #general a {
+        text-decoration: none;
+        color: black;
+      }
+      #general a:hover {
+        color: blue;
+      }
+      #new {
+        margin-left: 10px;
+      }
+      #new a:hover {
+        color: red;
+      }
+      #icon{
+        display: inline-block;
+        margin: 10px;
+        margin-left: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Welcome Back</h2>
+      <form>
+        <label for="username">Email:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <div id="forget">
+          <a href=""><h5>Forget password?</h5></a>
+        </div>
+        <input type="submit" value="Log in" />
+        <div id="or">--------or-------</div>
+        <div id="general">
+          <div id="icon">
+          <i class="fa-brands fa-google"></i></div>
+          <a href="">Continue with Google</a>
+        </div>
+        <div id="general">
+          <div id="icon">
+          <i class="fa-brands fa-facebook"></i></div>
+          <a href=""> Continue with Facebook</a>
+        </div>
+        <div id="general">
+          <div id="icon">
+          <i class="fa-brands fa-apple"></i></div>
+          <a href="">Continue with Apple</a>
+        </div>
+        <div id="new">New to Skill Nexus?<a href="signup.html">Sign up</a></div>
+      </form>
+    </div>
+  </body>
+</html>

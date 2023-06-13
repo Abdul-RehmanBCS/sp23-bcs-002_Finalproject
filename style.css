@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#back{
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#back button{
+  width: 2px;
+  height: 2px;
+  float: right;
+}
+#back img:hover{
+background-color: blue;
+}
+ul.navbar {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul.navbar li {
+  float: left;
+}
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.navbar li a:hover {
+  color: black;
+  background-color: white;
+}
+.flex-all-center {
+  display: flex;
+  justify-content: last baseline baseline;
+  align-items: last baseline;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: cornflowerblue;
+  column-rule-color: white;
+}
+#sinup {
+  display: inline-block;
+  color: white;
+  margin-left: 350px;
+}
+.img {
+  display: flex;
+  align-items: center;
+}
+logo img {
+  width: 88px;
+  padding: 5px 25px;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+#hdown{
+  background-color: aliceblue;
+  color: blue;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#wel{
+  display: inline-block;
+  margin-right: 350px;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+.hover {
+  padding: 20px;
+}
+.hover:hover {
+  color: white;
+  text-decoration: underline;
+}
+#nav {
+  height: 50px;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+#readopolis {
+  display: inline-block;
+  color: rgb(255, 0, 255);
+}
+body {
+  background-color: white;
+  color: black;
+}
+.hover-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+.hover-image:hover {
+  transform: scale(1.05);
+  transition: transform ease 0.7s;
+}
+
+#recomend {
+  margin-left: 11px;
+  width: 98%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: white;
+  color: Black;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#rec a {
+  text-decoration: none;
+  color: black;
+}
+#rec {
+  height: 50vh;
+  width: 20vw;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 50px;
+  margin: 12px;
+  margin-left: 20px;
+}
+#name{
+  display: inline-block;
+  padding: 10px;
+  
+}
+.c1 {
+  height: 40vh;
+  width: 18vw;
+  margin: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+}
+.c1 a {
+  text-decoration: none;
+  color: black;
+}
+
+#matric {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  margin: 10px;
+}
+.all {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  padding: 20px;
+}
+.inter {
+  background-color: purple;
+  padding: 10px;
+  padding-left: 30px;
+  margin: 10px;
+}
+#footup {
+  background-color: cornflowerblue;
+  height: 40vh;
+  width: 100%;
+  color: aqua;
+}
+.read {
+  display: inline-block;
+  padding-left: 80px;
+  padding-top: 30px;
+}
+.read a {
+  color: white;
+  text-decoration: none;
+}
+.explorer {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 80px;
+  width: 20%;
+  margin: 10px;
+  margin-left: 20px;
+}
+.explorer:hover{
+  color: red;
+}
+#text {
+  display: inline-block;
+  position: absolute;
+  margin: 20px;
+}
+.foot {
+  width: 20%;
+  padding-left: 90px;
+  padding-top: 10px;
+}
+.foot a {
+  color: white;
+  text-decoration: none;
+}
+.foot:hover {
+  text-decoration: underline;
+  color: white;
+}
+#footup1 {
+  display: inline-block;
+  background-color: cornflowerblue;
+  width: 20%;
+  height: 100%;
+}
+footer {
+  height: 10vh;
+  background-color: cornflowerblue;
+  color: white;
+}
+/*for inprogress page*/
+#uxtext {
+  display: inline-block;
+  margin: 20px;
+}
+#box {
+  width: 100%;
+  background-color: white;
+  height: 40vh;
+  margin-top: 50px;
+}
+#main {
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  height: 80vh;
+  margin-top: 200px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.blocks {
+  display: inline-block;
+  width: 47%;
+  background-color: white;
+  height: 40vh;
+  margin-left: 10px;
+  margin-top: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#right {
+  margin-left: 40px;
+}
+#utext {
+  display: inline-block;
+  color: black;
+  margin: 20px;
+}
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+#button button {
+  background-color: rgb(70, 70, 234);
+  color: white;
+  width: 30vw;
+  height: 10vh;
+  border-radius: 8px;
+}
+#button button a {
+  color: white;
+  text-decoration: none;
+}
+#button button:hover {
+  background-color: blue;
+}
+#icon{
+  display: inline-block;
+  padding: 10px;
+  margin-left: 450px;
+}
+#icon a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
